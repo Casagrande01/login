@@ -1,0 +1,26 @@
+{
+    "name": "session-auth-example",
+    "version": "1.0.0",
+    "description": "Um exemplo de autenticação e controle de sessão usando Node.js, Express e MySQL.",
+    "main": "app.js",
+    "scripts": {
+      "start": "node app.js",
+      "dev": "nodemon app.js"
+    },
+    "keywords": ["node", "express", "mysql", "auth", "session"],
+    "author": "Seu Nome",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt": "^5.1.0",
+      "dotenv": "^10.0.0",
+      "ejs": "^3.1.6",
+      "express": "^4.17.1",
+      "express-mysql-session": "^3.2.0",
+      "mysql2": "^2.3.3",
+      "express-session": "^1.17.2"
+    },
+    "devDependencies": {
+      "nodemon": "^2.0.15"
+    }
+  }
+  
